@@ -1,0 +1,165 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
+    
+justify-content: center;
+align-items: center;
+    padding: 15px;
+    flex-direction: column;
+
+width: 80%;
+border: solid 1px;
+border-radius: 0px 0px 10px 10px;
+margin-bottom: 50px;
+}
+label{
+    font-weight: 500;
+    font-size: 15px;
+}
+.dados{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #0085b2;
+    width: 80%;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+  
+}
+#cep{
+    margin-right: 235px;
+}
+.form-control{
+    border:solid 2px ;
+    border-radius: 7px;
+}
+.cadastro{
+   padding-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    
+}
+.produtos{
+   
+    width: 80%;
+    border: solid 1px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    border: none;
+  
+padding: 25px;
+flex-direction: row;
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+
+}
+.detalhes{
+    margin-right: 40px;
+    border-radius: 10px;
+
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+height: 100%;
+margin-bottom: 60px;
+width: 40%;
+justify-content: center;
+
+
+}
+
+.detalhes img{
+margin-top: 10px;
+width: 70%;
+}
+.detalhes h1{
+    font-size: 30px;
+}
+button{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #019e0f;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.coisas{
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    height: 300px;
+    width: 85%;
+}
+
+.trash{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+.nova-div{
+    display: flex;
+    justify-content: center;
+}
+.anexos{
+    
+    width: 80%;
+    border: solid 1px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: left;
+    padding: 10px;
+    flex-direction: column;
+}
+.dadosAnexos{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #0085b2;
+    width: 80%;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    margin-top: 100px;
+}
+.item{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.itens{
+   padding: 20px;
+   
+}
+.buttonAnexo{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
